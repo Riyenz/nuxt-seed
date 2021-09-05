@@ -7,11 +7,14 @@ declare module 'axios' {
 
 const http = (options = {}, version = 'v1') => {
   const url = process.env.NUXT_ENV_BASE_URL
+  const hasApiVersioning = process.env.NUXT_ENV_HAS_API_VERSIONING
+
+  const baseURL = +(hasApiVersioning || 0) ? `${url}/${version}` : url
 
   const token = localStorage.getItem(JWT_KEY)
 
   const defaultOptions = {
-    baseURL: `${url}/${version}`,
+    baseURL,
     headers: {
       Authorization: token ? `Bearer ${token}` : undefined,
     },

@@ -19,7 +19,7 @@
       <h1 class="font-poppins font-bold text-3xl">{{ title }}</h1>
     </div>
     <p class="font-opensans font-light">
-      Built-in standards and structures; focus on what matters
+      {{ description }}
     </p>
   </div>
 </template>
@@ -30,5 +30,7 @@ import { Component, Vue } from 'nuxt-property-decorator'
 @Component({})
 export default class IndexPage extends Vue {
   title: string = 'Nuxt Seed'
+  description: string =
+    'Built-in standards and structures; focus on what matters'
 }
 </script>

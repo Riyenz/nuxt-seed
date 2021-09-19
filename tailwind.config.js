@@ -3,7 +3,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Poppins', 'ui-sans-serif', 'system-ui', '-apple-system'],
+        poppins: ['Poppins', 'ui-sans-serif', 'system-ui', '-apple-system'],
+        ubuntu: ['Ubuntu', 'ui-sans-serif', 'system-ui', '-apple-system'],
+        opensans: ['Open Sans', 'ui-sans-serif', 'system-ui', '-apple-system'],
+      },
+      backgroundImage: {
+        pattern: 'url(/assets/images/background.svg)',
       },
     },
   },

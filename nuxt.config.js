@@ -62,4 +62,8 @@ export default {
   generate: {
     fallback: true,
   },
+
+  server: {
+    port: 7000,
+  },
 }

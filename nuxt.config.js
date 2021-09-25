@@ -8,7 +8,27 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'FILL_IN | Site Description',
+      },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'FILL_IN | Site Title',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'FILL_IN | Site Description',
+      },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'FILL_IN | Site Name',
+      },
     ],
     link: [
       {

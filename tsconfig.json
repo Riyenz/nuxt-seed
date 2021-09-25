@@ -24,6 +24,7 @@
       ]
     },
     "types": [
+      "@nuxtjs/toast",
       "@nuxt/types",
       "@types/node"
     ]

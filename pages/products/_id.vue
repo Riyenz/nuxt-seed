@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="w-full">
     <div class="flex justify-between items-center mb-10">
       <h2 class="text-xl">{{ title }}</h2>
       <NuxtLink to="/products" class="text-lg px-4 py-2 rounded-xl bg-gray-100"
@@ -101,7 +101,9 @@
 import { Action, Component, Getter, Vue } from 'nuxt-property-decorator'
 import { IProduct } from '~/interfaces/product.interface'
 
-@Component({})
+@Component({
+  layout: 'admin',
+})
 export default class Product extends Vue {
   title: string = 'View Product'
 

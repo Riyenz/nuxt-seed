@@ -19,9 +19,24 @@
       />
       <h1 class="font-poppins font-bold text-4xl">{{ title }}</h1>
     </div>
-    <p class="font-opensans font-light text-[20px]">
+    <p class="font-opensans font-light text-[20px] mb-4">
       {{ description }}
     </p>
+    <div class="grid grid-flow-col gap-6">
+      <p class="font-ubuntu font-bold text-sm">Sample Pages:</p>
+      <NuxtLink
+        to="products"
+        class="font-opensans font-bold text-sm hover:opacity-80 hover:underline"
+      >
+        Products
+      </NuxtLink>
+      <NuxtLink
+        to="cryptos"
+        class="font-opensans font-bold text-sm hover:opacity-80 hover:underline"
+      >
+        Crypto
+      </NuxtLink>
+    </div>
 
     <div class="absolute bottom-4 right-4 flex items-center whitespace-nowrap">
       <p class="font-opensans font-light mr-2">Developed by</p>

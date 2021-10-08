@@ -1,8 +1,17 @@
 <template>
-  <div class="container">
-    <h1 class="text-3xl mb-10">{{ title }}</h1>
+  <div class="w-full">
+    <h1 class="font-bold text-3xl mb-10">{{ title }}</h1>
 
-    <div class="flex flex-wrap">
+    <div
+      class="
+        grid grid-cols-1
+        md:grid-cols-3
+        lg:grid-cols-4
+        xl:grid-cols-5
+        gap-6
+        w-full
+      "
+    >
       <NuxtLink
         v-for="product in products"
         :key="product.id"
@@ -33,13 +42,15 @@
             justify-center
             max-w-full
             overflow-hidden
+            bg-[#f3f7f9]
             mb-6
           "
         >
           <img
             :src="product.image"
             :alt="product.title"
-            class="w-full rounded-t-xl object-contain"
+            class="object-contain w-48 h-48"
+            style="mix-blend-mode: multiply"
           />
         </div>
         <h3 class="text-sm h-10 overflow-hidden mb-2">{{ product.title }}</h3>
@@ -70,7 +81,9 @@
 import { Action, Component, Getter, Vue } from 'nuxt-property-decorator'
 import { IProduct } from '~/interfaces/product.interface'
 
-@Component({})
+@Component({
+  layout: 'admin',
+})
 export default class Products extends Vue {
   title: string = 'Products'
 

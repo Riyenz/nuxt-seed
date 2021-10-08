@@ -2,18 +2,20 @@ import { IProduct } from '~/interfaces/product.interface'
 
 import http from './http'
 
+const baseURL = 'https://fakestoreapi.com'
 const endpoint = 'products'
+const api = http(baseURL)
 
 const ProductsAPI = {
-  getAll: () => http().get<IProduct[]>(endpoint),
-  create: (sample: IProduct) => http().post<{ id: number }>(endpoint, sample),
-  get: (id: number | string) => http().get<IProduct>(`${endpoint}/${id}`),
+  getAll: () => api.get<IProduct[]>(endpoint),
+  create: (sample: IProduct) => api.post<{ id: number }>(endpoint, sample),
+  get: (id: number | string) => api.get<IProduct>(`${endpoint}/${id}`),
   patch: (id: number | string, sample: IProduct) =>
-    http().patch<{ message: string }>(`${endpoint}/${id}`, sample),
+    api.patch<{ message: string }>(`${endpoint}/${id}`, sample),
   put: (id: number | string, sample: IProduct) =>
-    http().put<{ message: string }>(`${endpoint}/${id}`, sample),
+    api.put<{ message: string }>(`${endpoint}/${id}`, sample),
   delete: (id: number | string) =>
-    http().delete<{ message: string }>(`${endpoint}/${id}`),
+    api.delete<{ message: string }>(`${endpoint}/${id}`),
 }
 
 export default ProductsAPI

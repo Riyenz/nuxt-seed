@@ -5,13 +5,8 @@ declare module 'axios' {
   export interface AxiosResponse<T = any> extends Promise<T> {}
 }
 
-const http = (options = {}, version = 'v1') => {
-  const url = process.env.NUXT_ENV_BASE_URL
-  const hasApiVersioning = process.env.NUXT_ENV_HAS_API_VERSIONING
-
-  const baseURL = +(hasApiVersioning || 0) ? `${url}/${version}` : url
-
-  const token = localStorage.getItem(JWT_KEY)
+const http = (baseURL: string, options = {}) => {
+  const token = process.browser ? localStorage.getItem(JWT_KEY) : undefined
 
   const defaultOptions = {
     baseURL,

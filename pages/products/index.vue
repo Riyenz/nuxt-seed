@@ -3,48 +3,16 @@
     <h1 class="font-bold text-3xl mb-10">{{ title }}</h1>
 
     <div
-      class="
-        grid grid-cols-1
-        md:grid-cols-3
-        lg:grid-cols-4
-        xl:grid-cols-5
-        gap-6
-        w-full
-      "
+      class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 w-full"
     >
       <NuxtLink
         v-for="product in products"
         :key="product.id"
         :to="`products/${product.id}`"
-        class="
-          flex flex-col
-          rounded-xl
-          p-4
-          w-64
-          mr-6
-          mb-6
-          bg-white
-          cursor-pointer
-          shadow
-          transition
-          duration-150
-          ease-in-out
-          hover:shadow-xl hover:-translate-y-0.5
-        "
+        class="flex flex-col rounded-xl p-4 w-64 mr-6 mb-6 bg-white cursor-pointer shadow transition duration-150 ease-in-out hover:shadow-xl hover:-translate-y-0.5"
       >
         <div
-          class="
-            rounded-xl
-            w-64
-            h-64
-            flex
-            items-center
-            justify-center
-            max-w-full
-            overflow-hidden
-            bg-[#f3f7f9]
-            mb-6
-          "
+          class="rounded-xl w-64 h-64 flex items-center justify-center max-w-full overflow-hidden bg-[#f3f7f9] mb-6"
         >
           <img
             :src="product.image"

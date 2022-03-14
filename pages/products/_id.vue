@@ -9,18 +9,7 @@
 
     <div class="rounded-xl p-8 bg-white cursor-pointer shadow flex">
       <div
-        class="
-          rounded-xl
-          w-96
-          h-96
-          flex
-          items-center
-          justify-center
-          max-w-full
-          overflow-hidden
-          mr-8
-          flex-shrink-0
-        "
+        class="rounded-xl w-96 h-96 flex items-center justify-center max-w-full overflow-hidden mr-8 flex-shrink-0"
       >
         <img
           :src="product.image"
@@ -57,37 +46,12 @@
         <p class="text-3xl text-yellow-500 mb-6">$ {{ product.price }}</p>
         <div>
           <button
-            class="
-              rounded
-              px-6
-              py-2
-              bg-yellow-500
-              text-white text-xl
-              w-64
-              mr-2
-              opacity-90
-              transition
-              duration-150
-              ease-in-out
-              hover:opacity-100
-            "
+            class="rounded px-6 py-2 bg-yellow-500 text-white text-xl w-64 mr-2 opacity-90 transition duration-150 ease-in-out hover:opacity-100"
           >
             Buy Now
           </button>
           <button
-            class="
-              rounded
-              px-6
-              py-2
-              bg-yellow-400
-              text-white text-xl
-              w-64
-              opacity-90
-              transition
-              duration-150
-              ease-in-out
-              hover:opacity-100
-            "
+            class="rounded px-6 py-2 bg-yellow-400 text-white text-xl w-64 opacity-90 transition duration-150 ease-in-out hover:opacity-100"
           >
             Add to Cart
           </button>

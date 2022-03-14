@@ -1,5 +1,5 @@
 module.exports = {
-  mode: 'jit',
+  content: ['components/**/*.vue', 'layouts/**/*.vue', 'pages/**/*.vue'],
   theme: {
     extend: {
       fontFamily: {
@@ -11,14 +11,5 @@ module.exports = {
         pattern: 'url(/assets/images/background.svg)',
       },
     },
-  },
-  variants: {
-    opacity: ({ after }) => after(['disabled']),
-    cursor: ({ after }) => after(['disabled']),
-  },
-  plugins: [],
-  purge: {
-    enabled: process.env.NODE_ENV === 'production',
-    content: ['components/**/*.vue', 'layouts/**/*.vue', 'pages/**/*.vue'],
   },
 }

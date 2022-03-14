@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="443" height="140" viewBox="0 0 443 140">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.213" y1="-0.064" x2="0.065" y2="0.845" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c13bec"/>
+      <stop offset="1" stop-color="#5f50e6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="3.709" y1="-0.877" x2="0.084" y2="0.765" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="2.927" y1="-0.676" x2="-0.699" y2="0.966" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="8.124" y1="-0.338" x2="-6.806" y2="1.303" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="2.005" y1="-0.146" x2="-2.273" y2="1.495" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(-984 -571)">
+    <path id="logo" d="M38.955,30.487A15.261,15.261,0,0,0,54.2,15.243V0H38.955A15.213,15.213,0,0,0,27.1,5.684,15.213,15.213,0,0,0,15.243,0H0V15.243A15.261,15.261,0,0,0,15.243,30.487h8.469V47.424H16.937a16.937,16.937,0,1,0,0,33.874H37.262a16.937,16.937,0,0,0,0-33.874H30.487V30.487ZM30.487,15.243a8.479,8.479,0,0,1,8.469-8.469h8.469v8.469a8.479,8.479,0,0,1-8.469,8.469H30.487Zm-6.775,8.469H15.243a8.479,8.479,0,0,1-8.469-8.469V6.775h8.469a8.479,8.479,0,0,1,8.469,8.469ZM37.262,54.2a10.167,10.167,0,0,1,8.978,5.414L31.786,61.421l.84,6.722,14.6-1.826a10.172,10.172,0,0,1-9.967,8.206H16.937A10.176,10.176,0,0,1,7.276,67.5l15.135-1.892-.84-6.722L7.486,60.645A10.175,10.175,0,0,1,16.937,54.2Zm0,0" transform="translate(984 580.851)" fill="#2a3650"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(625 278)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(699.45 374)">
+        <g id="Layer_1" data-name="Layer 1">
+          <path id="Path_1" data-name="Path 1" d="M0,6.507,6.892,19.121.021,31.517h6.8l3.246-6.094L16.965,38l6.9-12.689L27.245,31.5l6.71.04L27.2,19.116,33.955,6.589h-6.71l-3.332,6.327L16.977,0,13.612,6.354l7.012,12.72L16.965,25.78,6.687,6.345Z" fill="url(#linear-gradient)"/>
+          <path id="Path_2" data-name="Path 2" d="M326.384,87.441h4.751L324.965,69.15h-5.893L312.9,87.441h4.751l1.2-3.84h6.317Zm-6.47-7.2,2.03-6.484h.142l2.029,6.484Z" transform="translate(-268.534 -59.345)" fill="url(#linear-gradient-2)"/>
+          <path id="Path_3" data-name="Path 3" d="M430.239,69.16l4.085,13.4h.152l4.1-13.4h4.947l-6.171,18.291h-5.891L425.29,69.16Z" transform="translate(-364.988 -59.354)" fill="url(#linear-gradient-3)"/>
+          <path id="Path_4" data-name="Path 4" d="M572.2,69.16V87.451H567.77V69.16Z" transform="translate(-487.265 -59.354)" fill="url(#linear-gradient-4)"/>
+          <path id="Path_5" data-name="Path 5" d="M614.25,72.75V69.16h15.455v3.59h-5.541v14.7h-4.359V72.75Z" transform="translate(-527.155 -59.354)" fill="url(#linear-gradient-5)"/>
+        </g>
+      </g>
+      <text id="by_" data-name="by
+" transform="translate(668 399)" fill="#2a3650" font-size="20" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">by</tspan><tspan x="0" y="27"></tspan></text>
+    </g>
+    <text id="Nuxt_Seed" data-name="Nuxt Seed" transform="translate(1061 647)" fill="#2a3650" font-size="72" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Nuxt Seed</tspan></text>
+  </g>
+</svg>

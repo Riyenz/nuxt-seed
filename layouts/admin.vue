@@ -1,18 +1,7 @@
 <template>
   <div class="font-ubuntu h-screen w-screen">
     <div
-      class="
-        fixed
-        top-0
-        left-0
-        bg-white
-        w-full
-        h-16
-        flex
-        items-center
-        px-10
-        z-40
-      "
+      class="fixed top-0 left-0 bg-white w-full h-16 flex items-center px-10 z-40"
     >
       <NuxtLink to="/" class="flex items-center opacity-90">
         <img class="h-6 mr-1" src="/assets/images/logo.svg" alt="" />

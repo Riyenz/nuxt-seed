@@ -3,13 +3,7 @@
     <h1 class="font-bold text-3xl mb-10">Top 100 Crypto</h1>
 
     <div
-      class="
-        grid grid-cols-1
-        md:grid-cols-2
-        lg:grid-cols-3
-        xl:grid-cols-4
-        gap-6
-      "
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
     >
       <div
         v-for="crypto in cryptos"

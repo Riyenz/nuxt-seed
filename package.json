@@ -37,7 +37,7 @@
     "vuelidate": "^0.7.6"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
+    "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^11.0.0",
     "@nuxt/types": "^2.14.12",
     "@nuxt/typescript-build": "^2.0.4",
